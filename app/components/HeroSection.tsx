@@ -168,7 +168,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          山本涼太です。Unityでの開発経験を出発点に、現在は推しとファンをつなぐ
+          Unityでの開発経験を出発点に、現在は推しとファンをつなぐ
           動画メッセージサービス「WowMe」を企画・開発しています。
         </motion.p>
 
