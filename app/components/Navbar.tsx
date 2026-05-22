@@ -24,17 +24,11 @@ export default function Navbar() {
       initial={{ y: -80 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 py-4"
+      className="fixed top-0 left-0 right-0 z-50"
     >
       <div
-        className={`mx-4 sm:mx-auto sm:max-w-5xl transition-all duration-500 ${
-          menuOpen
-            ? "border border-white/8"
-            : scrolled
-            ? "glass border border-white/8"
-            : ""
-        }`}
-        style={menuOpen ? { background: "#000" } : undefined}
+        className="border-b border-white/8"
+        style={{ background: "#000" }}
       >
         <div className="flex items-center justify-between px-6 py-2">
           <a
