@@ -152,6 +152,20 @@ export default function ProjectSection() {
                     ))}
                   </div>
                 </div>
+
+                <div className="mt-8">
+                  <motion.a
+                    href="https://hello-wowme.github.io/WowMe-Official/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.97 }}
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white text-sm"
+                    style={{ background: "linear-gradient(135deg, #a855f7, #f472b6)" }}
+                  >
+                    WowMe 公式サイトを見る →
+                  </motion.a>
+                </div>
               </div>
             </div>
           </div>
