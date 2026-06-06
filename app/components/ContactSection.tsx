@@ -7,8 +7,8 @@ const links = [
   {
     label: "X (Twitter)",
     icon: "𝕏",
-    href: "https://x.com/mirai3_ai",
-    desc: "@mirai3_ai",
+    href: "https://x.com/tadanorita3",
+    desc: "@tadanorita3",
   },
   {
     label: "GitHub",
